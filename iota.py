@@ -13,14 +13,14 @@ d = float(input('Enter Delay time in seconds:'))
 d = 1 if d<1 else d
 
 bcolors = {
-    header_c : '\033[95m'
-    okblue_c : '\033[94m'
-    okgreen_c : '\033[92m'
-    warning_c : '\033[93m'
-    fail_c : '\033[91m'
-    end_c : '\033[0m'
-    bold_c : '\033[1m'
-    underline_c : '\033[4m'
+    'header_c' : '\033[95m'
+    'okblue_c' : '\033[94m'
+    'okgreen_c' : '\033[92m'
+    'warning_c' : '\033[93m'
+    'fail_c' : '\033[91m'
+    'end_c' : '\033[0m'
+    'bold_c' : '\033[1m'
+    'underline_c' : '\033[4m'
 }
 temp = 0
 while 1:
