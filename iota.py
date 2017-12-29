@@ -41,7 +41,7 @@ while 1:
     temp = float(data[0]['price_usd'])
     print(
         '''  {header_c}Price (USD):{end_c}{color}{price_usd}{end_c}
-  {bold_c}Change (1h):{end_c}{bold_c}{price_change_1h}%{end_c}
+  {bold_c}Change (1h):{end_c}{bold_c}{percent_change_1h}%{end_c}
   {bold_c}Change (1d):{end_c}{bold_c}{percent_change_24h}%{end_c}
   {bold_c}Change (1w):{end_c}{bold_c}{percent_change_7d}%{end_c}
     '''.format(**data[0], **bcolors, color=color))
